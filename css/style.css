@@ -1,0 +1,350 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap');
+
+/* RESET */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* HERO con fondo de partículas */
+#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* ÍNDICE */
+#indice {
+  background: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#indice h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#indice ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#indice li {
+  margin: 15px 0;
+}
+
+#indice a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+#indice a i {
+  margin-right: 8px;
+}
+
+#indice a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #007bff;
+  transition: width 0.3s;
+}
+
+#indice a:hover {
+  color: #007bff;
+}
+
+#indice a:hover::after {
+  width: 100%;
+}
+
+/* OVERLAY de contenido */
+#content-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fdfdfd;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 999;
+  padding: 40px 20px;
+  overflow-y: auto;
+}
+
+#content-overlay.show {
+  display: flex;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.content-inner {
+  max-width: 900px;
+  width: 100%;
+  background: #f2f2f2; /* CAJÓN GRIS MUY CLARO */
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+#close-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#content-data h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+#content-data p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+#content-data img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* LOGO ESQUINA */
+#corner-logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 9999;
+}
+
+#corner-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#corner-logo img:hover {
+  transform: scale(1.1);
+}
+
+/* OVERLAY VIDEO */
+#video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.95);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden; /* 👈 Para que no haga scroll */
+}
+
+#video-overlay.show {
+  display: flex;
+}
+
+.video-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-inner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 👈 Llena toda la pantalla sin deformarse */
+}
+
+#close-video-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10000; /* 👈 Asegúrate que quede arriba del video */
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  #indice h2 {
+    font-size: 2.5rem;
+  }
+  #indice a {
+    font-size: 1rem;
+  }
+  #content-data h2 {
+    font-size: 1.5rem;
+  }
+  .content-inner {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+/* Contenedor general sin borde */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 70px auto;
+  overflow: visible;
+}
+
+/* Caja de slides con borde futurista */
+.carousel-slide-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid rgba(231, 230, 227, 0.4);
+  box-shadow: 0 0 40px rgba(240, 141, 11, 0.3);
+  width: 100%;
+  aspect-ratio: 16/9; /* Nuevo: Mantiene proporción perfecta */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* <= Cambia de 'cover' a 'contain' */
+  object-position: center; /* Centra bien la imagen */
+  display: block;
+  border-radius: 0;
+  filter: brightness(0.95) saturate(1.2);
+  transition: all 0.4s ease;
+  background: #000; /* O color que prefieras detrás */
+}
+
+.carousel-slide:hover img {
+  filter: brightness(1) saturate(1.4);
+  transform: scale(1.02);
+}
+
+
+/* Botones con z-index para no colapsar */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 10; /* 🔑 */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  color: #000000;
+  transform: translateY(-50%) scale(1.2);
+}
+
+.carousel-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.carousel-btn.prev { left: 20px; }
+.carousel-btn.next { right: 20px; }
+
+
+
