@@ -48,7 +48,7 @@ const info = {
 
       <h3>Our Philosophy</h3>
       <div style="display: flex; align-items: flex-start; gap: 20px;">
-        <img src="https://lh4.googleusercontent.com/gBNm4DKOxwtjkSvJUnxgZJrD30rGUzvxVjcFI5NgAwzQaDQrbe7_QyTqOsJxvcZsZPy56r2Ion5OuS9Er6hZJkwmYBwgNQXVLVnMm7pWBoF_yDCLNHtwfAM146b5D3gFFlQjB9enZtvefIvFvi0lzBi0wbJkaCCajhEhKrVuisV73E57NO2ViA=w1280" alt="Our Philosophy" style="width: 200px; height: auto; object-fit: cover; border-radius: 8px;">
+        <img src="https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg" alt="Our Philosophy" style="width: 200px; height: auto; object-fit: cover; border-radius: 8px;">
         <p>At Limminé, we believe in the power of simplicity. Our philosophy is based on the idea that less is more: less excess, more authenticity. We are inspired by clean lines, neutral tones, and shapes that flow naturally.</p>
       </div>
       <p>Each design is born from the desire to offer versatile garments you can wear today, tomorrow, and always. We don’t follow fleeting trends: we create pieces designed to last, both in style and quality.</p>
@@ -60,7 +60,7 @@ const info = {
     title: "Partners & Company Type",
     text: `
       <p><strong>Legal Name:</strong><br>LIMMINÉ LTDA.</p>
-      <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa</p>
+      <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina zawadzky</p>
       <p><strong>Company Type:</strong><br>Limited Liability Company (LTDA)</p>
       <p>LIMMINÉ LTDA. is a Limited Liability Company formed by three partners who jointly participate in the management, operation, and development of the brand.</p>
     `
