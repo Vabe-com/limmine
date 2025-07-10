@@ -41,9 +41,8 @@ const info = {
     title: "Presentation, History and Philosophy",
     text: `
       <h3>Who are we at Limminé?</h3>
-      <p>At Limminé, we believe that fashion doesn’t have to be complicated to make an impact. We are a brand committed to creating garments that blend simplicity and elegance, designed for those who want a modern and sophisticated aesthetic without losing comfort.</p>
-      <p>Our mission is to offer clothing that adapts to your lifestyle, highlighting your individuality in a subtle but powerful way. Each collection is inspired by the beauty of the essential, using the highest quality materials and minimalist designs that can be combined to create timeless looks.</p>
-      <p>Limminé is more than clothing: it’s a way of expressing yourself, a lifestyle that embraces simplicity and sophistication in its purest form. We are passionate about transforming the everyday into something memorable, making each piece a reflection of your essence.</p>
+      <p>At Limminé, we design high-quality, minimalist clothing that combines comfort, elegance, and simplicity—made to adapt to your lifestyle and express your individuality in a subtle yet powerful way.</p>
+      
       <p>Welcome to Limminé. A world where fashion meets simplicity.</p>
 
       <h3>Our Philosophy</h3>
@@ -51,8 +50,8 @@ const info = {
         <img src="https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg" alt="Our Philosophy" style="width: 200px; height: auto; object-fit: cover; border-radius: 8px;">
         <p>At Limminé, we believe in the power of simplicity. Our philosophy is based on the idea that less is more: less excess, more authenticity. We are inspired by clean lines, neutral tones, and shapes that flow naturally.</p>
       </div>
-      <p>Each design is born from the desire to offer versatile garments you can wear today, tomorrow, and always. We don’t follow fleeting trends: we create pieces designed to last, both in style and quality.</p>
-      <p>Our commitment is to you, to your comfort and personal expression. Because dressing is not just about covering yourself: it’s a way of inhabiting the world.</p>
+      <p>Each Limminé piece is made to be timeless, offering lasting style and comfort—designed for real life, not trends, and created to help you express yourself every day.</p>
+      
     `
   },
 
@@ -79,11 +78,19 @@ const info = {
     title: "Suppliers and Customers",
     text: `
       <h3>🌿 About Our Suppliers and Customers</h3>
-      <p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and care for every detail. They provide us with high-quality materials that help us create clothes that are comfortable, durable, and timeless.</p>
-      <p>Our customers are at the center of everything we do. We aim to offer them casual clothing that makes them feel authentic and confident in their everyday life. We listen to their needs, value their feedback, and build long-lasting connections based on trust and satisfaction.</p>
-      <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
-      <p>By working together with reliable suppliers and understanding our customers, we make sure that every piece from LIMMINÉ reflects our commitment to clean design, quality, and sustainability.</p>
-    `
+<p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and care for every detail. They provide us with high-quality materials that help us create clothes that are comfortable, durable, and timeless.</p>
+
+<ul>
+  <li>Adidas</li>
+  <li>Converse</li>
+  <li>Vans</li>
+  <li>Hugo</li>
+</ul>
+
+<p>Our customers are at the center of everything we do. We aim to offer them casual clothing that makes them feel authentic and confident in their everyday life. We listen to their needs, value their feedback, and build long-lasting connections based on trust and satisfaction.</p>
+<hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+<p>By working together with reliable suppliers and understanding our customers, we make sure that every piece from LIMMINÉ reflects our commitment to clean design, quality, and sustainability.</p>
+`
   },
 
   productos: {
@@ -137,20 +144,22 @@ const info = {
 
   proyectos: {
     title: "Projects",
-    text: `
-      <h3>Main Project: LIMMINÉ</h3>
-      <p>LIMMINÉ is our main project and the heart of everything we do. It is much more than just a clothing brand — it is a vision to create casual fashion that is clean, timeless, and truly meaningful. With LIMMINÉ, we want to redefine how people see simple clothing by combining modern minimalism with comfort, elegance, and versatility. We believe that our clothes should help people feel authentic, confident, and connected to their own style in their everyday lives. This main project reflects our promise to offer high-quality pieces made with care and attention to detail.</p>
-      <h3>Internal Projects</h3>
-      <p>Behind LIMMINÉ, there are several internal projects that help us bring this vision to life. One of our biggest priorities is building strong, honest relationships with trusted suppliers who share our values of quality, responsibility, and sustainability. We work closely with them to select the best materials that make our clothes durable and comfortable, while taking care of people and the environment.
+    text: ´<h3>Main Project: LIMMINÉ</h3>
+<p>LIMMINÉ is more than a brand — it is a growing project dedicated to the commercialization of high-quality, well-designed textile products. With a strong focus on minimalist, adaptable, and clean fashion, LIMMINÉ aims to offer garments that combine modern aesthetics with comfort and function. Our vision is to simplify everyday style through timeless pieces that support self-expression and confidence. Every item we create is made with attention to detail, high-quality materials, and a commitment to durability, making LIMMINÉ a trusted choice for those who value refined simplicity.</p>
 
-Another important part of our internal work is the constant improvement of our designs and production processes. We study trends and listen to our customers to keep our collections fresh and relevant, but without losing our simple and clean identity. We also focus on creating a healthy work culture where our team can share ideas, grow together, and always keep our brand’s purpose in mind.</p>
-      <h3>Community and Sustainable Growth</h3>
-      <p>A big part of the LIMMINÉ project is our relationship with our customers and our community. We want people to feel connected to us, to trust our brand, and to see their own values reflected in our clothes. That is why we take customer service seriously, we value feedback, and we use it to keep improving every detail of what we do.
+<h3>Internal Projects</h3>
+<p>Inside LIMMINÉ, our team is our core strength. We are a group of passionate and creative individuals who believe in collaboration, integrity, and continuous growth. Our internal culture is based on openness, mutual respect, and a shared commitment to our brand’s purpose. We encourage the exchange of ideas, teamwork, and innovation in every area — from design and logistics to customer service and marketing.
 
-Sustainability and ethics are not just words for us — they are strong motives that guide every step of our project. We believe in growing slowly but surely, always staying true to our minimalist and authentic spirit. Every piece we create is part of this journey to build a brand that is not only beautiful and clean but also responsible and honest.</p>
-      <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
-      <p><em>Together, LIMMINÉ and its internal projects form one big purpose: to offer simple, timeless fashion that makes a difference — for our customers, our team, and the world around us.</em></p>
-    `
+To improve internally, we are focused on professional development, wellness, and building an inclusive work environment where every voice is heard and valued. As we grow, we aim to implement better tools and practices that allow us to work more efficiently while maintaining our core values. LIMMINÉ is not just about fashion — it's about building a strong, united team behind every piece.</p>
+
+<h3>Collaborators and Sustainable Growth</h3>
+<p>At LIMMINÉ, our collaborators — from suppliers to creative partners — play a vital role in our mission. We work only with partners who share our values of quality, responsibility, and transparency. These strong collaborations help us ensure that every product is made with care for both people and the planet.
+
+Sustainability is at the heart of everything we do. We are committed to responsible growth, using materials and production methods that reduce our environmental impact. Instead of chasing trends, we focus on long-term value, ethical practices, and community-driven decisions. We believe in making fashion that not only looks good but also feels right — for our customers, for our team, and for the future.</p>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+<p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
+´
   },
 
   ubicacion: {
