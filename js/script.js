@@ -51,7 +51,6 @@ const info = {
         <p>At Limminé, we believe in the power of simplicity. Our philosophy is based on the idea that less is more: less excess, more authenticity. We are inspired by clean lines, neutral tones, and shapes that flow naturally.</p>
       </div>
       <p>Each Limminé piece is made to be timeless, offering lasting style and comfort—designed for real life, not trends, and created to help you express yourself every day.</p>
-      
     `
   },
 
@@ -59,7 +58,7 @@ const info = {
     title: "Partners & Company Type",
     text: `
       <p><strong>Legal Name:</strong><br>LIMMINÉ LTDA.</p>
-      <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina zawadzky</p>
+      <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina Zawadzky</p>
       <p><strong>Company Type:</strong><br>Limited Liability Company (LTDA)</p>
       <p>LIMMINÉ LTDA. is a Limited Liability Company formed by three partners who jointly participate in the management, operation, and development of the brand.</p>
     `
@@ -68,7 +67,7 @@ const info = {
   objetivos: {
     title: "Goals, Mission & Vision",
     text: `
-      <p>🌟 <strong>Vision</strong><br>To be recognized in the future as a casual clothing brand that redefines simplicity and elegance, offering timeless pieces for people who value authenticity, comfort, and clean design. LIMMINÉ aims to grow steadily, first building a strong local presence and then expanding to new markets, while always staying true to its minimalist essence..</p>
+      <p>🌟 <strong>Vision</strong><br>To be recognized in the future as a casual clothing brand that redefines simplicity and elegance, offering timeless pieces for people who value authenticity, comfort, and clean design. LIMMINÉ aims to grow steadily, first building a strong local presence and then expanding to new markets, while always staying true to its minimalist essence.</p>
       <p>🎯 <strong>Mission</strong><br>To design and offer high-quality casual clothing with simple, clean, and versatile designs that fit different lifestyles. At LIMMINÉ, we work with carefully selected materials, responsible production, and a constant focus on customer satisfaction, inspiring trust and authenticity in every piece we create.</p>
       <p>✅ <strong>General Objective</strong><br>To position LIMMINÉ as a well-known casual clothing brand recognized for its clean design, quality, and authenticity, strengthening its presence in the market by creating timeless pieces that meet the needs and tastes of its customers, while always maintaining responsible practices and sustainable growth.</p>
     `
@@ -78,88 +77,87 @@ const info = {
     title: "Suppliers and Customers",
     text: `
       <h3>🌿 About Our Suppliers and Customers</h3>
-<p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and care for every detail. They provide us with high-quality materials that help us create clothes that are comfortable, durable, and timeless.</p>
+      <p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and care for every detail. They provide us with high-quality materials that help us create clothes that are comfortable, durable, and timeless.</p>
 
-<ul>
-  <li>Adidas</li>
-  <li>Converse</li>
-  <li>Vans</li>
-  <li>Hugo</li>
-</ul>
+      <ul>
+        <li>Adidas</li>
+        <li>Converse</li>
+        <li>Vans</li>
+        <li>Hugo</li>
+      </ul>
 
-<p>Our customers are at the center of everything we do. We aim to offer them casual clothing that makes them feel authentic and confident in their everyday life. We listen to their needs, value their feedback, and build long-lasting connections based on trust and satisfaction.</p>
-<hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
-<p>By working together with reliable suppliers and understanding our customers, we make sure that every piece from LIMMINÉ reflects our commitment to clean design, quality, and sustainability.</p>
-`
+      <p>Our customers are at the center of everything we do. We aim to offer them casual clothing that makes them feel authentic and confident in their everyday life. We listen to their needs, value their feedback, and build long-lasting connections based on trust and satisfaction.</p>
+      <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+      <p>By working together with reliable suppliers and understanding our customers, we make sure that every piece from LIMMINÉ reflects our commitment to clean design, quality, and sustainability.</p>
+    `
   },
 
   productos: {
     title: "Products and Services",
     text: `
       <!-- SHOES CAROUSEL -->
-<div class="carousel">
-  <h3>Shoes</h3>
-  <div class="carousel-slide-wrapper">
-    <div class="carousel-track">
-      <div class="carousel-slide"><img src="images/shoes 1.png" alt="Shoe 1"></div>
-      <div class="carousel-slide"><img src="images/shoes 2.jpg" alt="Shoe 2"></div>
-      <div class="carousel-slide"><img src="images/shoes 3.jpg" alt="Shoe 3"></div>
-    </div>
-    <button class="carousel-btn prev" onclick="plusSlides(-1, 0)">&#10094;</button>
-    <button class="carousel-btn next" onclick="plusSlides(1, 0)">&#10095;</button>
-  </div>
-</div>
+      <div class="carousel">
+        <h3>Shoes</h3>
+        <div class="carousel-slide-wrapper">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="images/shoes 1.png" alt="Shoe 1"></div>
+            <div class="carousel-slide"><img src="images/shoes 2.jpg" alt="Shoe 2"></div>
+            <div class="carousel-slide"><img src="images/shoes 3.jpg" alt="Shoe 3"></div>
+          </div>
+          <button class="carousel-btn prev" onclick="plusSlides(-1, 0)">&#10094;</button>
+          <button class="carousel-btn next" onclick="plusSlides(1, 0)">&#10095;</button>
+        </div>
+      </div>
 
-<!-- SHIRTS CAROUSEL -->
-<div class="carousel">
-  <h3>Shirts</h3>
-  <div class="carousel-slide-wrapper">
-    <div class="carousel-track">
-      <div class="carousel-slide"><img src="images/shirt 1.png" alt="Shirt 1"></div>
-      <div class="carousel-slide"><img src="images/shirt 2.jpg" alt="Shirt 2"></div>
-      <div class="carousel-slide"><img src="images/shirt 3.jpg" alt="Shirt 3"></div>
-    </div>
-    <button class="carousel-btn prev" onclick="plusSlides(-1, 1)">&#10094;</button>
-    <button class="carousel-btn next" onclick="plusSlides(1, 1)">&#10095;</button>
-  </div>
-</div>
+      <!-- SHIRTS CAROUSEL -->
+      <div class="carousel">
+        <h3>Shirts</h3>
+        <div class="carousel-slide-wrapper">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="images/shirt 1.png" alt="Shirt 1"></div>
+            <div class="carousel-slide"><img src="images/shirt 2.jpg" alt="Shirt 2"></div>
+            <div class="carousel-slide"><img src="images/shirt 3.jpg" alt="Shirt 3"></div>
+          </div>
+          <button class="carousel-btn prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="plusSlides(1, 1)">&#10095;</button>
+        </div>
+      </div>
 
-<!-- HOODIES CAROUSEL -->
-<div class="carousel">
-  <h3>Hoodies</h3>
-  <div class="carousel-slide-wrapper">
-    <div class="carousel-track">
-      <div class="carousel-slide"><img src="images/hoddie 1.jpg" alt="Hoodie 1"></div>
-      <div class="carousel-slide"><img src="images/hoddie 2.jpg" alt="Hoodie 2"></div>
-      <div class="carousel-slide"><img src="images/hoddie 3.jpg" alt="Hoodie 3"></div>
-    </div>
-    <button class="carousel-btn prev" onclick="plusSlides(-1, 2)">&#10094;</button>
-    <button class="carousel-btn next" onclick="plusSlides(1, 2)">&#10095;</button>
-  </div>
-</div>
-
-
+      <!-- HOODIES CAROUSEL -->
+      <div class="carousel">
+        <h3>Hoodies</h3>
+        <div class="carousel-slide-wrapper">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="images/hoddie 1.jpg" alt="Hoodie 1"></div>
+            <div class="carousel-slide"><img src="images/hoddie 2.jpg" alt="Hoodie 2"></div>
+            <div class="carousel-slide"><img src="images/hoddie 3.jpg" alt="Hoodie 3"></div>
+          </div>
+          <button class="carousel-btn prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+          <button class="carousel-btn next" onclick="plusSlides(1, 2)">&#10095;</button>
+        </div>
+      </div>
     `
   },
 
   proyectos: {
     title: "Projects",
-    text: ´<h3>Main Project: LIMMINÉ</h3>
-<p>LIMMINÉ is more than a brand — it is a growing project dedicated to the commercialization of high-quality, well-designed textile products. With a strong focus on minimalist, adaptable, and clean fashion, LIMMINÉ aims to offer garments that combine modern aesthetics with comfort and function. Our vision is to simplify everyday style through timeless pieces that support self-expression and confidence. Every item we create is made with attention to detail, high-quality materials, and a commitment to durability, making LIMMINÉ a trusted choice for those who value refined simplicity.</p>
+    text: `
+      <h3>Main Project: LIMMINÉ</h3>
+      <p>LIMMINÉ is more than a brand — it is a growing project dedicated to the commercialization of high-quality, well-designed textile products. With a strong focus on minimalist, adaptable, and clean fashion, LIMMINÉ aims to offer garments that combine modern aesthetics with comfort and function. Our vision is to simplify everyday style through timeless pieces that support self-expression and confidence. Every item we create is made with attention to detail, high-quality materials, and a commitment to durability, making LIMMINÉ a trusted choice for those who value refined simplicity.</p>
 
-<h3>Internal Projects</h3>
-<p>Inside LIMMINÉ, our team is our core strength. We are a group of passionate and creative individuals who believe in collaboration, integrity, and continuous growth. Our internal culture is based on openness, mutual respect, and a shared commitment to our brand’s purpose. We encourage the exchange of ideas, teamwork, and innovation in every area — from design and logistics to customer service and marketing.
+      <h3>Internal Projects</h3>
+      <p>Inside LIMMINÉ, our team is our core strength. We are a group of passionate and creative individuals who believe in collaboration, integrity, and continuous growth. Our internal culture is based on openness, mutual respect, and a shared commitment to our brand’s purpose. We encourage the exchange of ideas, teamwork, and innovation in every area — from design and logistics to customer service and marketing.
 
-To improve internally, we are focused on professional development, wellness, and building an inclusive work environment where every voice is heard and valued. As we grow, we aim to implement better tools and practices that allow us to work more efficiently while maintaining our core values. LIMMINÉ is not just about fashion — it's about building a strong, united team behind every piece.</p>
+      To improve internally, we are focused on professional development, wellness, and building an inclusive work environment where every voice is heard and valued. As we grow, we aim to implement better tools and practices that allow us to work more efficiently while maintaining our core values. LIMMINÉ is not just about fashion — it's about building a strong, united team behind every piece.</p>
 
-<h3>Collaborators and Sustainable Growth</h3>
-<p>At LIMMINÉ, our collaborators — from suppliers to creative partners — play a vital role in our mission. We work only with partners who share our values of quality, responsibility, and transparency. These strong collaborations help us ensure that every product is made with care for both people and the planet.
+      <h3>Collaborators and Sustainable Growth</h3>
+      <p>At LIMMINÉ, our collaborators — from suppliers to creative partners — play a vital role in our mission. We work only with partners who share our values of quality, responsibility, and transparency. These strong collaborations help us ensure that every product is made with care for both people and the planet.
 
-Sustainability is at the heart of everything we do. We are committed to responsible growth, using materials and production methods that reduce our environmental impact. Instead of chasing trends, we focus on long-term value, ethical practices, and community-driven decisions. We believe in making fashion that not only looks good but also feels right — for our customers, for our team, and for the future.</p>
+      Sustainability is at the heart of everything we do. We are committed to responsible growth, using materials and production methods that reduce our environmental impact. Instead of chasing trends, we focus on long-term value, ethical practices, and community-driven decisions. We believe in making fashion that not only looks good but also feels right — for our customers, for our team, and for the future.</p>
 
-<hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
-<p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
-´
+      <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+      <p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
+    `
   },
 
   ubicacion: {
@@ -175,7 +173,7 @@ Sustainability is at the heart of everything we do. We are committed to responsi
           📞 Phone: +57 322  353 0837</p>
         </div>
         <div style="flex: 1 1 350px; min-width: 280px; border-radius: 8px; overflow: hidden;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.5711076381256!2d-74.09366999558043!3d4.569261685912379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1751940507378!5m2!1ses!2sco" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></i>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.5711076381256!2d-74.09366999558043!3d4.569261685912379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1751940507378!5m2!1ses!2sco" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
     `
@@ -224,7 +222,7 @@ closeVideoBtn.addEventListener('click', () => {
 });
 
 // Carruseles
-let slideIndex = [0, 0, 0]; // uno por carrusel
+let slideIndex = [0, 0, 0];
 const slideId = ["carousel-track-0", "carousel-track-1", "carousel-track-2"];
 
 function plusSlides(n, no) {
@@ -239,10 +237,8 @@ function showSlides(n, no) {
   slides[slideIndex[no]].style.display = "block";
 }
 
-// Init all carousels
-for (let i = 0; i < slideId.length; i++) {
-  showSlides(slideIndex[i], i);
+function initCarousels() {
+  for (let i = 0; i < slideId.length; i++) {
+    showSlides(slideIndex[i], i);
+  }
 }
-
-
-
