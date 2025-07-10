@@ -77,7 +77,7 @@ const info = {
     title: "Suppliers and Customers",
     text: `
       <h3>🌿 About Our Suppliers and Customers</h3>
-<p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and care for every detail. They provide us with high-quality materials that help us create clothes that are comfortable, durable, and timeless.</p>
+<p>At LIMMINÉ LTDA., we believe that strong relationships with our suppliers and customers are key to our growth and success. We work closely with trusted suppliers who share our values of quality, responsibility, and attention to every detail. We carefully select high-quality garments and products to offer our customers comfortable, durable, and timeless options.</p>
 
 <ul>
   <li>Adidas</li>
