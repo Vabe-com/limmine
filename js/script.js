@@ -146,10 +146,7 @@ const info = {
 <p>LIMMINÉ is a growing project focused on offering high-quality, minimalist clothing that combines modern design with comfort and durability. Each piece is made to support personal style and confidence through timeless simplicity.</p>
 
 <h3>Internal Projects</h3>
-<p>Our strength is our team — creative, committed, and collaborative. We promote innovation, inclusion, and continuous growth to improve our work and stay true to our brand values.</p>
-
-<h3>Collaborators and Sustainable Growth</h3>
-<p>We work with trusted partners who share our values of quality and responsibility. Sustainability drives everything we do, from materials to production, aiming for long-term value and ethical fashion.</p>
+<p>At LIMMINÉ LTDA., we want our way of working to reflect who we are: a united, committed team aligned with our values. We aim to surround ourselves with suppliers who share our vision of quality and trust, so that every garment that reaches our customers speaks well of us and the work we do together.</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
 <p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
