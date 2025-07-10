@@ -142,18 +142,14 @@ const info = {
   proyectos: {
     title: "Projects",
     text: `
-<h3>Main Project: LIMMINÉ</h3>
-<p>LIMMINÉ is more than a brand — it is a growing project dedicated to the commercialization of high-quality, well-designed textile products. With a strong focus on minimalist, adaptable, and clean fashion, LIMMINÉ aims to offer garments that combine modern aesthetics with comfort and function. Our vision is to simplify everyday style through timeless pieces that support self-expression and confidence. Every item we create is made with attention to detail, high-quality materials, and a commitment to durability, making LIMMINÉ a trusted choice for those who value refined simplicity.</p>
+<h3>LIMMINÉ</h3>
+<p>LIMMINÉ is a growing project focused on offering high-quality, minimalist clothing that combines modern design with comfort and durability. Each piece is made to support personal style and confidence through timeless simplicity.</p>
 
 <h3>Internal Projects</h3>
-<p>Inside LIMMINÉ, our team is our core strength. We are a group of passionate and creative individuals who believe in collaboration, integrity, and continuous growth. Our internal culture is based on openness, mutual respect, and a shared commitment to our brand’s purpose. We encourage the exchange of ideas, teamwork, and innovation in every area — from design and logistics to customer service and marketing.
-
-To improve internally, we are focused on professional development, wellness, and building an inclusive work environment where every voice is heard and valued. As we grow, we aim to implement better tools and practices that allow us to work more efficiently while maintaining our core values. LIMMINÉ is not just about fashion — it's about building a strong, united team behind every piece.</p>
+<p>Our strength is our team — creative, committed, and collaborative. We promote innovation, inclusion, and continuous growth to improve our work and stay true to our brand values.</p>
 
 <h3>Collaborators and Sustainable Growth</h3>
-<p>At LIMMINÉ, our collaborators — from suppliers to creative partners — play a vital role in our mission. We work only with partners who share our values of quality, responsibility, and transparency. These strong collaborations help us ensure that every product is made with care for both people and the planet.
-
-Sustainability is at the heart of everything we do. We are committed to responsible growth, using materials and production methods that reduce our environmental impact. Instead of chasing trends, we focus on long-term value, ethical practices, and community-driven decisions. We believe in making fashion that not only looks good but also feels right — for our customers, for our team, and for the future.</p>
+<p>We work with trusted partners who share our values of quality and responsibility. Sustainability drives everything we do, from materials to production, aiming for long-term value and ethical fashion.</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
 <p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
@@ -168,8 +164,8 @@ Sustainability is at the heart of everything we do. We are committed to responsi
           <h3>📍 Find Us Here</h3>
           <p>Welcome to <strong>LIMMINÉ</strong> — your destination for clean, timeless fashion! 👕✨<br><br>
           Our headquarters is in the heart of Bogotá, Colombia 🇨🇴.<br>
-          📌 Address: Bogotá, Colombia<br>
-          📧 Email: contacto@limmine.com<br>
+          📌 Address: Diagonal 25c sur #3-91 Bogotá, Colombia<br>
+          📧 Email: limmine.0725@gmail.com<br>
           📞 Phone: +57 322  353 0837</p>
         </div>
         <div style="flex: 1 1 350px; min-width: 280px; border-radius: 8px; overflow: hidden;">
