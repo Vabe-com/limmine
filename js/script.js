@@ -248,7 +248,7 @@ closeBtn.addEventListener('click', () => {
 
 cornerLogo.addEventListener('click', e => {
   e.preventDefault();
-  videoElement.src = "images/VIDEOS.mp4";
+  videoElement.src = "images/VIDEO.mp4";
   videoElement.play();
   videoOverlay.classList.add('show');
   stopAutoScroll(); // Opcional: detiene scroll cuando hay video
