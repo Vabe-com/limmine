@@ -1,11 +1,15 @@
-// Config particles.js
-particlesJS('particles-js', {
+// ----------------------------------------------
+// ✅ PARTICLES CONFIG
+// ----------------------------------------------
+
+// Config base para HERO (partículas blancas)
+const particlesConfigHero = {
   "particles": {
     "number": { "value": 60 },
     "color": { "value": "#ffffff" },
     "shape": { "type": "circle" },
     "opacity": { "value": 0.5, "random": true },
-    "size": { "value": 3, "random": true },
+    "size": { "value": 6, "random": true },
     "line_linked": {
       "enable": true,
       "distance": 150,
@@ -17,11 +21,26 @@ particlesJS('particles-js', {
   },
   "interactivity": {
     "events": {
-      "onhover": { "enable": true, "mode": "repulse" }
+      "onhover": { "enable": false } // Desactivamos repulse
     }
   },
   "retina_detect": true
-});
+};
+
+// Config para OVERLAY (partículas negras)
+const particlesConfigOverlay = JSON.parse(JSON.stringify(particlesConfigHero));
+particlesConfigOverlay.particles.color.value = "#000000";
+particlesConfigOverlay.particles.line_linked.color = "#000000";
+
+// Inicializa partículas HERO al cargar
+particlesJS('particles-js', particlesConfigHero);
+
+// Bandera para saber si ya cargaste partículas del overlay
+let particlesOverlayLoaded = false;
+
+// ----------------------------------------------
+// ✅ INFORMACIÓN DE CADA SECCIÓN
+// ----------------------------------------------
 
 // TODAS TUS SECCIONES ORIGINALES COMPLETAS
 const info = {
@@ -38,7 +57,7 @@ const info = {
   },
 
   presentacion: {
-    title: "Presentation, History and Philosophy",
+    title: "Presentation and Philosophy",
     text: `
       <h3>Who are we at Limminé?</h3>
       <p>At Limminé, we design high-quality, minimalist clothing that combines comfort, elegance, and simplicity—made to adapt to your lifestyle and express your individuality in a subtle yet powerful way.</p>
@@ -93,7 +112,7 @@ const info = {
   },
 
   productos: {
-    title: "Products and Services",
+    title: "Products",
     text: `
       <!-- SHOES CAROUSEL -->
 <div class="carousel">
@@ -173,11 +192,24 @@ const info = {
   }
 };
 
-// Overlay logic
+
+// ----------------------------------------------
+// ✅ ELEMENTOS Y SELECTORES CLAVE
+// ----------------------------------------------
+
 const links = document.querySelectorAll('#indice a');
 const overlay = document.getElementById('content-overlay');
 const contentData = document.getElementById('content-data');
 const closeBtn = document.getElementById('close-btn');
+
+const cornerLogo = document.getElementById('corner-logo');
+const videoOverlay = document.getElementById('video-overlay');
+const videoElement = document.getElementById('local-video');
+const closeVideoBtn = document.getElementById('close-video-btn');
+
+// ----------------------------------------------
+// ✅ OVERLAY LOGIC
+// ----------------------------------------------
 
 links.forEach(link => {
   link.addEventListener('click', e => {
@@ -186,37 +218,54 @@ links.forEach(link => {
     if (info[target]) {
       contentData.innerHTML = `<h2>${info[target].title}</h2><div class="text-box">${info[target].text}</div>`;
       overlay.classList.add('show');
+      document.body.classList.add('no-scroll');
+
+      // Inicializa partículas solo 1 vez
+      if (!particlesOverlayLoaded) {
+        particlesJS('particles-overlay', particlesConfigOverlay);
+        particlesOverlayLoaded = true;
+      }
+
+      // Si es productos, activa carruseles
       if (target === 'productos') {
         setTimeout(initCarousels, 50);
       }
+
+      stopAutoScroll(); // ✅ Detiene scroll
     }
   });
 });
 
-closeBtn.addEventListener('click', () => overlay.classList.remove('show'));
+closeBtn.addEventListener('click', () => {
+  overlay.classList.remove('show');
+  document.body.classList.remove('no-scroll');
+  startAutoScroll(); // ✅ Reanuda scroll
+});
 
-// Video logic
-const cornerLogo = document.getElementById('corner-logo');
-const videoOverlay = document.getElementById('video-overlay');
-const videoElement = document.getElementById('local-video');
-const closeVideoBtn = document.getElementById('close-video-btn');
+// ----------------------------------------------
+// ✅ VIDEO LOGIC
+// ----------------------------------------------
 
 cornerLogo.addEventListener('click', e => {
   e.preventDefault();
-  videoElement.src = "images/VIDEO.mp4";
+  videoElement.src = "images/VIDEOS.mp4";
   videoElement.play();
   videoOverlay.classList.add('show');
+  stopAutoScroll(); // Opcional: detiene scroll cuando hay video
 });
 
 closeVideoBtn.addEventListener('click', () => {
   videoOverlay.classList.remove('show');
   videoElement.pause();
   videoElement.currentTime = 0;
+  startAutoScroll(); // Reanuda scroll al cerrar video
 });
 
-// Carruseles
-let slideIndex = [0, 0, 0]; // uno por carrusel
-const slideId = ["carousel-track-0", "carousel-track-1", "carousel-track-2"];
+// ----------------------------------------------
+// ✅ CARRUSELES
+// ----------------------------------------------
+
+let slideIndex = [0, 0, 0];
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -230,7 +279,37 @@ function showSlides(n, no) {
   slides[slideIndex[no]].style.display = "block";
 }
 
-// Init all carousels
-for (let i = 0; i < slideId.length; i++) {
-  showSlides(slideIndex[i], i);
+function initCarousels() {
+  for (let i = 0; i < slideIndex.length; i++) {
+    showSlides(slideIndex[i], i);
+  }
 }
+
+initCarousels(); // Si quieres iniciar al cargar
+
+// ----------------------------------------------
+// ✅ AUTO SCROLL INFINITO
+// ----------------------------------------------
+
+let autoScrollInterval = null;
+
+function startAutoScroll() {
+  stopAutoScroll(); // Limpia intervalos previos
+  autoScrollInterval = setInterval(() => {
+    window.scrollBy(0, 1); // Scroll de 1px
+    if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+      window.scrollTo({ top: 0 });
+    }
+  }, 30); // Velocidad del scroll
+}
+
+function stopAutoScroll() {
+  if (autoScrollInterval) {
+    clearInterval(autoScrollInterval);
+    autoScrollInterval = null;
+  }
+}
+
+// ✅ Empieza scroll cuando carga la página
+startAutoScroll();
+
