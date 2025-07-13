@@ -56,22 +56,22 @@ const info = {
     `
   },
 
-  presentacion: {
-    title: "Presentation and Philosophy",
-    text: `
-      <h3>Who are we at Limminé?</h3>
-      <p>At Limminé, we design high-quality, minimalist clothing that combines comfort, elegance, and simplicity—made to adapt to your lifestyle and express your individuality in a subtle yet powerful way.</p>
-      
-      <p>Welcome to Limminé. A world where fashion meets simplicity.</p>
+ presentacion: {
+  title: "Presentation and Philosophy",
+  text: `
+    <h3>Who are we at Limminé?</h3>
+    <p>At Limminé, we carefully select high-quality, minimalist clothing that combines comfort, elegance, and simplicity — pieces chosen to adapt to your lifestyle and express your individuality in a subtle yet powerful way.</p>
+    
+    <p>Welcome to Limminé. A world where fashion meets simplicity.</p>
 
-      <h3>Our Philosophy</h3>
-      <div style="display: flex; align-items: flex-start; gap: 20px;">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg" alt="Our Philosophy" style="width: 200px; height: auto; object-fit: cover; border-radius: 8px;">
-        <p>At Limminé, we believe in the power of simplicity. Our philosophy is based on the idea that less is more: less excess, more authenticity. We are inspired by clean lines, neutral tones, and shapes that flow naturally.</p>
-      </div>
-      <p>Each Limminé piece is made to be timeless, offering lasting style and comfort—designed for real life, not trends, and created to help you express yourself every day.</p>
-    `
-  },
+    <h3>Our Philosophy</h3>
+    <div style="display: flex; align-items: flex-start; gap: 20px;">
+      <img src="https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg" alt="Our Philosophy" style="width: 200px; height: auto; object-fit: cover; border-radius: 8px;">
+      <p>At Limminé, we believe in the power of simplicity. Our philosophy is based on the idea that less is more: less excess, more authenticity. We are inspired by clean lines, neutral tones, and shapes that flow naturally.</p>
+    </div>
+    <p>Each Limminé piece is chosen to be timeless, offering lasting style and comfort — selected for real life, not passing trends, and meant to help you express yourself every day.</p>
+  `
+},
 
   socios: {
     title: "Partners & Company Type",
@@ -84,13 +84,14 @@ const info = {
   },
 
   objetivos: {
-    title: "Goals, Mission & Vision",
-    text: `
-      <p>🌟 <strong>Vision</strong><br>To be recognized in the future as a casual clothing brand that redefines simplicity and elegance, offering timeless pieces for people who value authenticity, comfort, and clean design. LIMMINÉ aims to grow steadily, first building a strong local presence and then expanding to new markets, while always staying true to its minimalist essence..</p>
-      <p>🎯 <strong>Mission</strong><br>To design and offer high-quality casual clothing with simple, clean, and versatile designs that fit different lifestyles. At LIMMINÉ, we work with carefully selected materials, responsible production, and a constant focus on customer satisfaction, inspiring trust and authenticity in every piece we create.</p>
-      <p>✅ <strong>General Objective</strong><br>To position LIMMINÉ as a well-known casual clothing brand recognized for its clean design, quality, and authenticity, strengthening its presence in the market by creating timeless pieces that meet the needs and tastes of its customers, while always maintaining responsible practices and sustainable growth.</p>
-    `
-  },
+  title: "Goals, Mission & Vision",
+  text: `
+    <p>🌟 <strong>Vision</strong><br>To be recognized in the future as a casual clothing brand that redefines simplicity and elegance, offering timeless pieces for people who value authenticity, comfort, and clean design. LIMMINÉ aims to grow steadily, first building a strong local presence and then expanding to new markets, while always staying true to its minimalist essence.</p>
+    <p>🎯 <strong>Mission</strong><br>To carefully select and offer high-quality casual clothing with simple, clean, and versatile designs that fit different lifestyles. At LIMMINÉ, we work with trusted suppliers, responsible practices, and a constant focus on customer satisfaction, inspiring trust and authenticity in every piece we offer.</p>
+    <p>✅ <strong>General Objective</strong><br>To position LIMMINÉ as a well-known casual clothing brand recognized for its clean design, quality, and authenticity, strengthening its presence in the market by curating timeless pieces that meet the needs and tastes of its customers, while always maintaining responsible practices and sustainable growth.</p>
+  `
+},
+
 
   proveedores: {
     title: "Suppliers and Customers",
@@ -159,18 +160,19 @@ const info = {
   },
 
   proyectos: {
-    title: "Projects",
-    text: `
+  title: "Projects",
+  text: `
 <h3>LIMMINÉ</h3>
-<p>LIMMINÉ is a growing project focused on offering high-quality, minimalist clothing that combines modern design with comfort and durability. Each piece is made to support personal style and confidence through timeless simplicity.</p>
+<p>LIMMINÉ is a growing project focused on carefully selecting high-quality, minimalist clothing that combines modern style with comfort and durability. Each piece is chosen to support personal style and confidence through timeless simplicity.</p>
 
 <h3>Internal Projects</h3>
 <p>At LIMMINÉ LTDA., we want our way of working to reflect who we are: a united, committed team aligned with our values. We aim to surround ourselves with suppliers who share our vision of quality and trust, so that every garment that reaches our customers speaks well of us and the work we do together.</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
-<p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who make it, and the world around us.</em></p>
-    `
-  },
+<p><em>Together, LIMMINÉ and its internal projects form one clear purpose: to offer simple, timeless fashion that creates a positive impact — for the people who wear it, the people who choose it, and the world around us.</em></p>
+  `
+},
+
 
   ubicacion: {
     title: "Location & Contact",
