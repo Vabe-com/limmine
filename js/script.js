@@ -83,7 +83,7 @@ const info = {
           position: absolute;
           top: 0;
           right: 0;
-          width: 500px;
+          width: 450px;
           pointer-events: none;
         ">
     </span>
