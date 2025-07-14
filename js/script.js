@@ -79,7 +79,7 @@ const info = {
       <p><strong>Legal Name:</strong><br>LIMMINÉ LTDA.</p>
       <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina zawadzky</p>
       <p><strong>Company Type:</strong><br>Limited Liability Company (LTDA)</p>
-      <p>LIMMINÉ LTDA. is a Limited Liability Company formed by three partners who jointly participate in the management, operation, and development of the brand.</p>
+      <p>LIMMINÉ LTDA. is a Limited Liability Company formed by four partners who jointly participate in the management, operation, and development of the brand.</p>
     `
   },
 
