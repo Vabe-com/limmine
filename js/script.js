@@ -77,7 +77,7 @@ const info = {
   title: "Partners & Company Type",
   text: `
     <span style="position: relative; display: block;">
-      <img src="https://imagenes.20minutos.es/uploads/imagenes/2024/05/15/una-imagen-creada-por-la-herramienta-imagen-3-de-google.jpeg"
+      <img src="images/Reunión empresarial en oficina moderna.png"
         alt="Decorativo"
         style="
           position: absolute;
