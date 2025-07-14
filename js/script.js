@@ -74,14 +74,25 @@ const info = {
 },
 
   socios: {
-    title: "Partners & Company Type",
-    text: `
-      <p><strong>Legal Name:</strong><br>LIMMINÉ LTDA.</p>
-      <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina zawadzky</p>
-      <p><strong>Company Type:</strong><br>Limited Liability Company (LTDA)</p>
-      <p>LIMMINÉ LTDA. is a Limited Liability Company formed by four partners who jointly participate in the management, operation, and development of the brand.</p>
-    `
-  },
+  title: "Partners & Company Type",
+  text: `
+    <span style="position: relative; display: block;">
+      <img src="https://imagenes.20minutos.es/uploads/imagenes/2024/05/15/una-imagen-creada-por-la-herramienta-imagen-3-de-google.jpeg"
+        alt="Decorativo"
+        style="
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 550px;
+          pointer-events: none;
+        ">
+    </span>
+    <p><strong>Legal Name:</strong><br>LIMMINÉ LTDA.</p>
+    <p><strong>Partners:</strong><br>Andrés Santiago Pereira Sánchez<br>Ángel Daniel González Clavijo<br>Juan José Cuadrado Monterrosa<br>Juan Felipe Medina Zawadzky</p>
+    <p><strong>Company Type:</strong><br>Limited Liability Company (LTDA)</p>
+    <p>LIMMINÉ LTDA. is a Limited Liability Company formed by four partners who jointly participate in the management, operation, and development of the brand.</p>
+  `
+},
 
   objetivos: {
   title: "Goals, Mission & Vision",
